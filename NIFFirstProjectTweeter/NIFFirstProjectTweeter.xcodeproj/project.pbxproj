@@ -42,8 +42,8 @@
 		2C5F5A5116DEA7EC00165CE1 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		2C9A684E16E92A1600B78099 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = de.lproj/NIFViewController.xib; sourceTree = "<group>"; };
 		2C9A684F16E92A1600B78099 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		2C9A685316E92C4C00B78099 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		2C9A685516E92C7500B78099 /* de */ = {isa = PBXFileReference; lastKnownFileType = file; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2C9A685316E92C4C00B78099 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2C9A685516E92C7500B78099 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
