@@ -19,6 +19,7 @@
 		2C5F5A4816DE9EA900165CE1 /* NIFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5F5A4716DE9EA900165CE1 /* NIFViewController.m */; };
 		2C5F5A4B16DE9EA900165CE1 /* NIFViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C5F5A4916DE9EA900165CE1 /* NIFViewController.xib */; };
 		2C5F5A5216DEA7EC00165CE1 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C5F5A5116DEA7EC00165CE1 /* Social.framework */; };
+		2C9A685216E92C4C00B78099 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2C9A685416E92C4C00B78099 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,10 @@
 		2C5F5A4716DE9EA900165CE1 /* NIFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NIFViewController.m; sourceTree = "<group>"; };
 		2C5F5A4A16DE9EA900165CE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NIFViewController.xib; sourceTree = "<group>"; };
 		2C5F5A5116DEA7EC00165CE1 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		2C9A684E16E92A1600B78099 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = de.lproj/NIFViewController.xib; sourceTree = "<group>"; };
+		2C9A684F16E92A1600B78099 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2C9A685316E92C4C00B78099 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2C9A685516E92C7500B78099 /* de */ = {isa = PBXFileReference; lastKnownFileType = file; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +107,7 @@
 				2C5F5A3E16DE9EA900165CE1 /* NIFAppDelegate.m */,
 				2C5F5A3616DE9EA900165CE1 /* NIFFirstProjectTweeter-Info.plist */,
 				2C5F5A3716DE9EA900165CE1 /* InfoPlist.strings */,
+				2C9A685416E92C4C00B78099 /* Localizable.strings */,
 				2C5F5A3A16DE9EA900165CE1 /* main.m */,
 				2C5F5A3C16DE9EA900165CE1 /* NIFFirstProjectTweeter-Prefix.pch */,
 				2C5F5A4016DE9EA900165CE1 /* Default.png */,
@@ -147,6 +153,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				de,
 			);
 			mainGroup = 2C5F5A2216DE9EA900165CE1;
 			productRefGroup = 2C5F5A2C16DE9EA900165CE1 /* Products */;
@@ -168,6 +175,7 @@
 				2C5F5A4316DE9EA900165CE1 /* Default@2x.png in Resources */,
 				2C5F5A4516DE9EA900165CE1 /* Default-568h@2x.png in Resources */,
 				2C5F5A4B16DE9EA900165CE1 /* NIFViewController.xib in Resources */,
+				2C9A685216E92C4C00B78099 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,6 +199,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				2C5F5A3816DE9EA900165CE1 /* en */,
+				2C9A684F16E92A1600B78099 /* de */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -199,8 +208,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				2C5F5A4A16DE9EA900165CE1 /* en */,
+				2C9A684E16E92A1600B78099 /* de */,
 			);
 			name = NIFViewController.xib;
+			sourceTree = "<group>";
+		};
+		2C9A685416E92C4C00B78099 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C9A685316E92C4C00B78099 /* en */,
+				2C9A685516E92C7500B78099 /* de */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

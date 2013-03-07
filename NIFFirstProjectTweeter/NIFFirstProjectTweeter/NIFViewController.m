@@ -18,7 +18,7 @@
 - (IBAction)handleTweetButtonTapped:(id)sender {
     if ([SLComposeViewController isAvailableForServiceType:SLServiceTypeTwitter]) {
         SLComposeViewController *tweetVC = [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeTwitter];
-        [tweetVC setInitialText:@"I just finished the first project in iOS SDK Development. #pragios"];
+        [tweetVC setInitialText:NSLocalizedString(@"I just finished the first project in iOS SDK Development. #pragios", nil)];
         [self presentViewController:tweetVC animated:YES completion:NULL];
     } else {
         NSLog(@"Can't send tweet");
