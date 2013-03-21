@@ -9,6 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface NIFViewController : UIViewController
-@property (strong, nonatomic) IBOutlet UIWebView *twitterWebView;
 
 @end
